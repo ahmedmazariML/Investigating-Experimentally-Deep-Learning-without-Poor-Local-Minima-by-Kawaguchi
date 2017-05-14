@@ -23,12 +23,12 @@ $ pip install keras numpy scipy seaborn matplotlib
 
 - Manage the parameters
 - Do experimentations with weight values which are near
-- Add other datasets.
-- Check the saddle points.
-- Compare the same model with ADAM and SGD.
-- Perturbate the weights after convergence.
+- Add other datasets
+- Check the saddle points
+- Compare the same model with ADAM and SGD
+- Perturbate the weights after convergence
 - Define saddle points
--  Add a breakpoint to stop the experimentation. 
+-  Add a breakpoint to stop the experimentation
 - Driver for cloud provider (AWS, AzureML)
 - Store experimentations 
 
