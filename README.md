@@ -7,6 +7,31 @@ several other metrics are considered in order to compare model similarity regard
 
 Original paper : https://arxiv.org/abs/1605.07110
 
+# Usage
+
+jupyter notebook src/experiment.ipynb
+
+Run all cells
+
+Same for boston_experiment.ipynb or cifar10_experiment.ipynb
+
+# Installation
+
+$ pip install keras numpy scipy seaborn matplotlib
+
+# Todo
+
+- Manage the parameters
+- Do experimentations with weight values which are near
+- Add other datasets.
+- Check the saddle points.
+- Compare the same model with ADAM and SGD.
+- Perturbate the weights after convergence.
+- Define saddle points
+-  Add a breakpoint to stop the experimentation. 
+- Driver for cloud provider (AWS, AzureML)
+- Store experimentations 
+
  
  # Class taught by  : 
  
